@@ -1,0 +1,24 @@
+a {
+  color: #007bff; /* your desired blue */
+  text-decoration: none;
+}
+
+a:visited {
+  color: #007bff; /* same color as unvisited */
+}
+
+a:hover {
+  color: #0056b3; /* slightly darker on hover */
+}
+
+.certificates ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.certificates li{
+  background: #f8f8f8;
+  padding: 16px;
+  border-radius: 8px;
+}
